@@ -1,5 +1,4 @@
 n = int(input())
-arr = [[0]*(n+1) for _ in range(n+1)]
 move = input().split()
 x,y = 1,1
 
@@ -18,5 +17,3 @@ for i in move:
             y -=1
 
 print(x,y)
-
-
